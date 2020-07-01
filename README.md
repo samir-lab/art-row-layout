@@ -7,6 +7,7 @@ npm install art-row-layout
 ## Usage
 ```
 import ArtRowLayout from 'art-row-layout'
+import 'art-row-layout/dist/art-row-layout.css'
 Vue.use(ArtRowLayout)
 ```
 
