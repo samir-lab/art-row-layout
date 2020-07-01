@@ -1,0 +1,31 @@
+{
+  "name": "art-row-layout",
+  "version": "0.1.0",
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/art-row-layout.common.js",
+  "scripts": {
+    "package": "vue-cli-service build --target lib --art-row-layout main ./src/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "element-resize-detector": "^1.2.1",
+    "interactjs": "^1.9.19",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-flow-comments": "^7.10.4",
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
